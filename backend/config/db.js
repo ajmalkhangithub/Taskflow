@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export const connectDb= async ()=>{
-    mongoose.connect("mongodb+srv://Ajmalkhan:J5Aq5p1PcpQrfLjR@cluster0.aqc6qrl.mongodb.net/Taskflow?retryWrites=true")
+    mongoose.connect("")
     .then(()=>{
         console.log("database is connected successfuly")
     })
